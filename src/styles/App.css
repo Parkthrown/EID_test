@@ -19,7 +19,8 @@
 }
 
 .App-body {
-  width: 80vw;
+  width: 70vw;
+  padding: 5vw;
   text-align: center;
   background-color: white;
   min-height: 100vh;
@@ -34,9 +35,14 @@
   color: #61dafb;
 }
 
+.input:active {
+  background-image: linear-gradient(#b2dad3, #d9dda2);
+  color: white;
+}
+
 .input:focus {
-  border: 2px solid #69c4b5;
   color: black;
+  border: 2px solid #69c4b5;
 }
 
 .input:hover {
@@ -57,4 +63,11 @@
   transition: 0.3s;
   color: black;
   font-weight: 900;
+}
+
+@media only screen and (max-width: 840px) {
+  .App-body {
+    width: 100vw;
+    padding: 10%;
+  }
 }
