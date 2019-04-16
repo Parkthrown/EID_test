@@ -10,10 +10,14 @@ class FlatList extends Component {
   }
 
   render() {
-    const { items, renderItem: RenderItem, keyExtractor } = this.props;
-
+    const {
+      class: _class,
+      items,
+      renderItem: RenderItem,
+      keyExtractor
+    } = this.props;
     return (
-      <ul class="FlatList">
+      <ul class={"FlatList " + _class}>
         {items.map((item, i) => (
           <li key={keyExtractor(item)}>
             <RenderItem item={item} />

@@ -11,15 +11,20 @@
   transition: 0.3s;
   color: black;
   font-weight: 900;
+  list-style: none;
+  list-style-type: none;
 }
 
 .data {
   display: grid;
   grid-template-columns: auto auto auto auto;
   align-items: unset;
+  list-style: none;
+  list-style-type: none;
+  padding: 0%;
 }
 
-.data p {
+.data li {
   border: 0;
   background: none;
   display: block;

@@ -3,6 +3,7 @@ import "./UserEntry.css";
 
 const UserEntry = item => {
   const mainItem = item.item;
+  const { class: _class } = item;
   const { document } = mainItem;
   const { subject } = document;
   const { primaryName, secondaryName } = subject;
@@ -10,21 +11,21 @@ const UserEntry = item => {
   const { client, version, ipAddress, platform } = userEnvironment;
 
   return (
-    <div class="UserEntry">
+    <ul class={"UserEntry " + (_class ? _class : "")}>
       <p>Name: {primaryName}</p>
       <p>Surname: {secondaryName}</p>
-      <div class="Environment">
+      <li class="Environment">
         <p>-Environment-</p>
         <hr />
-        <div class="data">
-          <p>client: {client}</p>
-          <p>version: {version}</p>
-          <p>ipAdress: {ipAddress}</p>
-          <p>platform: {platform.match("^.{1,15}")}...</p>
-        </div>
+        <ul class="data">
+          <li>client: {client}</li>
+          <li>version: {version}</li>
+          <li>ipAdress: {ipAddress}</li>
+          <li>platform: {platform.match("^.{1,15}")}...</li>
+        </ul>
         <hr />
-      </div>
-    </div>
+      </li>
+    </ul>
   );
 };
 

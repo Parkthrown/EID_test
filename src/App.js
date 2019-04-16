@@ -37,7 +37,6 @@ class App extends Component {
   render() {
     const { fetchData, keyExtractor } = this;
     const { res, loading, offset, fetch } = this.state;
-    console.log(offset);
     return (
       <div className="App">
         <div class="App-body">
@@ -61,6 +60,7 @@ class App extends Component {
           {res !== undefined ? (
             <div>
               <FlatList
+                class="App-List"
                 items={res.filter((e, i) => i > offset && i <= offset + fetch)}
                 renderItem={UserEntry}
                 keyExtractor={keyExtractor}
@@ -69,6 +69,7 @@ class App extends Component {
                 {offset / fetch + 1}/{Math.floor(res.length / fetch)}
               </p>
               <Paginator
+                class="App-paginator"
                 offset={offset}
                 fetch={fetch}
                 size={res.length}

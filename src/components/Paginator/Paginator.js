@@ -2,13 +2,13 @@ import React from "react";
 import "./Paginator.css";
 
 const Paginator = item => {
-  const { offset, fetch, size, onMore, onLess } = item;
+  const { class: _class, offset, fetch, size, onMore, onLess } = item;
   return (
-    <div class="Paginator">
+    <div class={"Paginator " + (_class ? _class : "")}>
       <button
         disabled={offset > 0 ? false : true}
         onClick={onLess}
-        class="less input"
+        class={"less input"}
       >
         {"<"}
       </button>
