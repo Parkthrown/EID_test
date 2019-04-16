@@ -1,0 +1,322 @@
+{
+  "item": {
+    "status": "Completed",
+    "width": 640,
+    "height": 480,
+    "idType": 62,
+    "userEnvironment": {
+      "client": "eid.js",
+      "version": "2.4.15-modules",
+      "ipAddress": "88.21.54.199",
+      "platform": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36",
+      "device": {
+        "id": "f463078f-95dd-4d12-bb7c-0e6921c908e9",
+        "type": "Desktop"
+      },
+      "webcam": {
+        "front": { "width": 640, "height": 480 },
+        "back": { "width": 640, "height": 480 }
+      }
+    },
+    "request": {
+      "date": 1554816067000,
+      "securityFeaturesRequired": false,
+      "rauthorityId": null,
+      "minSimilarityLevel": "VeryLow",
+      "eid": {
+        "extra": {
+          "sad": "sefv34eververgferg34-erwg3erg34sefv34eververgferg34-erwg3erg34sefv34eververgferg34-erwg3erg34sefv34eververgferg34-erwg3erg34sefv34eververgferg34-erwg3erg34sefv34eververgferg34-erwg3erg34sefv34eververgferg34-erwg3erg34sefv34eververgferg34-erwg3erg34sefv34eververgferg34-erwg3erg34sefv34eververgferg34-erwg3erg34sefv34eververgferg34-erwg3erg34sefv34eververgferg34-erwg3erg34sefv34eververgferg34-erwg3erg34",
+          "point": {
+            "sad": "sefv34eververgferg34-erwg3erg34sefv34eververgferg34-erwg3erg34sefv34eververgferg34-erwg3erg34sefv34eververgferg34-erwg3erg34sefv34eververgferg34-erwg3erg34sefv34eververgferg34-erwg3erg34sefv34eververgferg34-erwg3erg34sefv34eververgferg34-erwg3erg34sefv34eververgferg34-erwg3erg34sefv34eververgferg34-erwg3erg34sefv34eververgferg34-erwg3erg34sefv34eververgferg34-erwg3erg34sefv34eververgferg34-erwg3erg34",
+            "for": {
+              "sad": "sefv34eververgferg34-erwg3erg34sefv34eververgferg34-erwg3erg34sefv34eververgferg34-erwg3erg34sefv34eververgferg34-erwg3erg34sefv34eververgferg34-erwg3erg34sefv34eververgferg34-erwg3erg34sefv34eververgferg34-erwg3erg34sefv34eververgferg34-erwg3erg34sefv34eververgferg34-erwg3erg34sefv34eververgferg34-erwg3erg34sefv34eververgferg34-erwg3erg34sefv34eververgferg34-erwg3erg34sefv34eververgferg34-erwg3erg34",
+              "you": {
+                "sad": "sefv34eververgferg34-erwg3erg34sefv34eververgferg34-erwg3erg34sefv34eververgferg34-erwg3erg34sefv34eververgferg34-erwg3erg34sefv34eververgferg34-erwg3erg34sefv34eververgferg34-erwg3erg34sefv34eververgferg34-erwg3erg34sefv34eververgferg34-erwg3erg34sefv34eververgferg34-erwg3erg34sefv34eververgferg34-erwg3erg34sefv34eververgferg34-erwg3erg34sefv34eververgferg34-erwg3erg34sefv34eververgferg34-erwg3erg34",
+                "add": {
+                  "sad": "sefv34eververgferg34-erwg3erg34sefv34eververgferg34-erwg3erg34sefv34eververgferg34-erwg3erg34sefv34eververgferg34-erwg3erg34sefv34eververgferg34-erwg3erg34sefv34eververgferg34-erwg3erg34sefv34eververgferg34-erwg3erg34sefv34eververgferg34-erwg3erg34sefv34eververgferg34-erwg3erg34sefv34eververgferg34-erwg3erg34sefv34eververgferg34-erwg3erg34sefv34eververgferg34-erwg3erg34sefv34eververgferg34-erwg3erg34",
+                  "this": { "line": "I find the secret key" }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "failure": null,
+    "completion": { "date": 1554816158000 },
+    "duration": null,
+    "document": {
+      "classification": "esp_id_2",
+      "type": "TD1",
+      "issuer": "ESP",
+      "issuingDate": null,
+      "issuingDateTS": null,
+      "expiryDate": "190616",
+      "expiryDateTS": 1560643200000,
+      "subject": {
+        "primaryName": "Leandro",
+        "secondaryName": "DAVILA PINO",
+        "alternativePrimaryName": null,
+        "alternativeSecondaryName": null,
+        "mother": "Rosario",
+        "father": "Jesus",
+        "birthDate": "880421",
+        "birthDateTS": 577584000000,
+        "birthPlace": "E, MADRID",
+        "address": "NIDO DEL ÁGUILA, GALAPAGAR, MADRID",
+        "sex": "M",
+        "nationality": "ESP",
+        "personalNumber": "00000000J",
+        "taxNumber": null,
+        "socialSecurityNumber": null,
+        "healthNumber": null
+      },
+      "documentNumber": "44E142407"
+    },
+    "biometrics": {
+      "face": {
+        "similarityLevel": "High",
+        "similarity": 0.85217035,
+        "engineResult": 0.85217035,
+        "engine": "legacyeID"
+      }
+    },
+    "classifications": {
+      "type": "TD1",
+      "features": {
+        "country": "ESP",
+        "sides": ["front", "back"],
+        "features": {
+          "ovi1": {
+            "bbox": { "x": 180, "y": 16, "width": 56, "height": 34 },
+            "side": "front"
+          },
+          "clearWindow1": {
+            "bbox": { "x": 476, "y": 54, "width": 76, "height": 48 },
+            "side": "front"
+          },
+          "hologram": {
+            "bbox": { "x": 126, "y": 170, "width": 196, "height": 188 },
+            "side": "front"
+          },
+          "header1": {
+            "bbox": { "x": 8, "y": 16, "width": 166, "height": 38 },
+            "side": "front"
+          },
+          "header2": {
+            "bbox": { "x": 248, "y": 22, "width": 370, "height": 26 },
+            "side": "front"
+          },
+          "badge1": {
+            "bbox": { "x": 268, "y": 98, "width": 206, "height": 206 },
+            "side": "front"
+          },
+          "chip": {
+            "bbox": { "x": 62, "y": 124, "width": 100, "height": 90 },
+            "side": "back"
+          },
+          "clearWindow2": {
+            "bbox": { "x": 86, "y": 58, "width": 76, "height": 48 },
+            "side": "back"
+          },
+          "badge2": {
+            "bbox": { "x": 586, "y": 24, "width": 42, "height": 98 },
+            "side": "back"
+          }
+        }
+      },
+      "front": {
+        "probability": 100,
+        "country": "ESP",
+        "type": "DNI",
+        "year": 2015,
+        "side": "FRONT",
+        "img": "https://etrust-sandbox.electronicid.eu/v2/iddocument.front/esp_id_2"
+      },
+      "back": {
+        "probability": 100,
+        "country": "ESP",
+        "type": "DNI",
+        "year": 2015,
+        "side": "BACK",
+        "img": "https://etrust-sandbox.electronicid.eu/v2/iddocument.back/esp_id_2"
+      }
+    },
+    "securityChecks": {
+      "nonExpired": {
+        "name": "Document not expired",
+        "passed": true,
+        "attributes": null
+      },
+      "notUnderage": {
+        "name": "Not underage",
+        "passed": true,
+        "attributes": null
+      },
+      "liveness": {
+        "name": "Liveness detection",
+        "passed": true,
+        "attributes": null
+      },
+      "notBWCopy": {
+        "name": "Not black & white copy",
+        "passed": false,
+        "attributes": null
+      }
+    },
+    "mrzOcr": {
+      "type": "TD1",
+      "documentCode": {
+        "text": "ID",
+        "confidence": 92.26556,
+        "boundingBox": {
+          "p1": { "x": 29, "y": 25 },
+          "p2": { "x": 65, "y": 25 },
+          "p3": { "x": 65, "y": 50 },
+          "p4": { "x": 29, "y": 50 }
+        }
+      },
+      "issuer": {
+        "text": "ESP",
+        "confidence": 90.06173,
+        "boundingBox": {
+          "p1": { "x": 70, "y": 25 },
+          "p2": { "x": 128, "y": 25 },
+          "p3": { "x": 128, "y": 50 },
+          "p4": { "x": 70, "y": 50 }
+        }
+      },
+      "birthDateAndCD": {
+        "value": {
+          "text": "880421",
+          "confidence": 90.134605,
+          "boundingBox": {
+            "p1": { "x": 27, "y": 59 },
+            "p2": { "x": 146, "y": 59 },
+            "p3": { "x": 146, "y": 86 },
+            "p4": { "x": 27, "y": 86 }
+          }
+        },
+        "checkDigit": {
+          "text": "5",
+          "confidence": 89.36898,
+          "boundingBox": {
+            "p1": { "x": 153, "y": 59 },
+            "p2": { "x": 170, "y": 59 },
+            "p3": { "x": 170, "y": 86 },
+            "p4": { "x": 153, "y": 86 }
+          }
+        },
+        "valid": true
+      },
+      "expiryDateAndCD": {
+        "value": {
+          "text": "190616",
+          "confidence": 89.50587,
+          "boundingBox": {
+            "p1": { "x": 196, "y": 58 },
+            "p2": { "x": 316, "y": 58 },
+            "p3": { "x": 316, "y": 85 },
+            "p4": { "x": 196, "y": 85 }
+          }
+        },
+        "checkDigit": {
+          "text": "5",
+          "confidence": 90.05036,
+          "boundingBox": {
+            "p1": { "x": 320, "y": 58 },
+            "p2": { "x": 336, "y": 58 },
+            "p3": { "x": 336, "y": 85 },
+            "p4": { "x": 320, "y": 85 }
+          }
+        },
+        "valid": true
+      },
+      "sex": {
+        "text": "M",
+        "confidence": 82.80945,
+        "boundingBox": {
+          "p1": { "x": 173, "y": 61 },
+          "p2": { "x": 192, "y": 61 },
+          "p3": { "x": 192, "y": 86 },
+          "p4": { "x": 173, "y": 86 }
+        }
+      },
+      "nationality": {
+        "text": "ESP",
+        "confidence": 89.03774,
+        "boundingBox": {
+          "p1": { "x": 341, "y": 60 },
+          "p2": { "x": 399, "y": 60 },
+          "p3": { "x": 399, "y": 85 },
+          "p4": { "x": 341, "y": 85 }
+        }
+      },
+      "primaryName": {
+        "text": "Leandro",
+        "confidence": 91.36013,
+        "boundingBox": {
+          "p1": { "x": 300, "y": 95 },
+          "p2": { "x": 545, "y": 95 },
+          "p3": { "x": 545, "y": 121 },
+          "p4": { "x": 300, "y": 121 }
+        }
+      },
+      "secondaryName": {
+        "text": "DAVILA PINO",
+        "confidence": 91.12302,
+        "boundingBox": {
+          "p1": { "x": 29, "y": 96 },
+          "p2": { "x": 254, "y": 96 },
+          "p3": { "x": 254, "y": 121 },
+          "p4": { "x": 29, "y": 121 }
+        }
+      },
+      "compositeCD": {
+        "text": "7",
+        "confidence": 90.286255,
+        "boundingBox": {
+          "p1": { "x": 631, "y": 57 },
+          "p2": { "x": 649, "y": 57 },
+          "p3": { "x": 649, "y": 84 },
+          "p4": { "x": 631, "y": 84 }
+        }
+      },
+      "valid": true,
+      "documentNumberAndCD": {
+        "value": {
+          "text": "4E142407",
+          "confidence": 90.01194,
+          "boundingBox": {
+            "p1": { "x": 132, "y": 23 },
+            "p2": { "x": 316, "y": 23 },
+            "p3": { "x": 316, "y": 50 },
+            "p4": { "x": 132, "y": 50 }
+          }
+        },
+        "checkDigit": {
+          "text": "9",
+          "confidence": 86.337715,
+          "boundingBox": {
+            "p1": { "x": 319, "y": 23 },
+            "p2": { "x": 337, "y": 23 },
+            "p3": { "x": 337, "y": 49 },
+            "p4": { "x": 319, "y": 49 }
+          }
+        },
+        "valid": true
+      },
+      "personalNumber": {
+        "text": "00000000J",
+        "confidence": 89.81824,
+        "boundingBox": {
+          "p1": { "x": 339, "y": 22 },
+          "p2": { "x": 521, "y": 22 },
+          "p3": { "x": 521, "y": 49 },
+          "p4": { "x": 339, "y": 49 }
+        }
+      }
+    },
+    "verificationId": null
+  }
+}

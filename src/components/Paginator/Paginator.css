@@ -1,0 +1,35 @@
+.Paginator {
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: unset;
+}
+
+.Paginator button {
+  margin: 1vmin;
+  border: 0;
+  background: none;
+  display: block;
+  text-align: center;
+  border: 2px solid #ccd642;
+  outline: none;
+  border-radius: 24px;
+  transition: 0.5s;
+  color: black;
+  font-weight: 900;
+  font-size: 50px;
+}
+
+.Paginator button[disabled] {
+  margin: 1vmin;
+  border: 0;
+  background: none;
+  display: block;
+  text-align: center;
+  border: 2px solid #aaaaaa;
+  outline: none;
+  border-radius: 24px;
+  transition: 0.5s;
+  color: #333333;
+  font-weight: 900;
+  font-size: 50px;
+}

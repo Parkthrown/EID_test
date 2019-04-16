@@ -1,0 +1,60 @@
+.App {
+  text-align: center;
+  background-image: linear-gradient(#ccd642, #69c4b5);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.App-logo {
+  height: 20vmin;
+  pointer-events: none;
+}
+
+.App-main-text {
+  color: black;
+  font-weight: 750;
+}
+
+.App-body {
+  width: 80vw;
+  text-align: center;
+  background-color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.input:focus {
+  border: 2px solid #69c4b5;
+  color: black;
+}
+
+.input:hover {
+  background-image: linear-gradient(#ccd642, #69c4b5);
+  border: 2px solid white;
+}
+
+.element {
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #ccd642;
+  outline: none;
+  padding: 14px 40px;
+  border-radius: 24px;
+  transition: 0.3s;
+  color: black;
+  font-weight: 900;
+}
